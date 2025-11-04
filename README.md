@@ -169,5 +169,5 @@ Source: tgju.org
 
 👤 Developer: mir sina banihashem         
 📍 Hosted on: Cloudflare Workers          
-🔗 Endpoint: https://dollar.api-sina-free.workers.dev/dollar          
-🗳 Rubika: https://rubika.ir/Sinabani_api
+🗳 Rubika: https://rubika.ir/Sinabani_api          
+🔗 Endpoint: https://dollar.api-sina-free.workers.dev/dollar
