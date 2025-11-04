@@ -60,13 +60,44 @@ GET :
 
 ```
 import requests
+from datetime import datetime
 
-res = requests.get("https://dollar.api-sina-free.workers.dev/")
-data = res.json()
+API_URL = "https://dollar.api-sina-free.workers.dev/dollar"
 
-print("👤 Creator:", data["creator"])
-print("💵 دلار آزاد:", data["price_rial"], "ریال")
-print("💰 به تومان:", data["price_toman"], "تومان")
+def fetch_dollar():
+    try:
+        res = requests.get(API_URL, timeout=5)
+        res.raise_for_status()
+        data = res.json()
+
+        
+        if "price_toman" not in data:
+            print(" خطا در دریافت داده")
+            return
+
+        price_toman = data["price_toman"]
+        price_rial = data["price_rial"]
+        updated_at = data["updated_at"]
+        creator = data.get("creator", "نامشخص")
+        source = data.get("source", "tgju.org")
+
+        time_str = datetime.fromisoformat(updated_at.replace("Z", "+00:00")).strftime("%Y-%m-%d %H:%M:%S")
+
+        print(f"💰 به تومان: {price_toman:,} تومان")
+        print(f"💵 به ریال:  {int(price_rial):,} ریال")
+        print(f" بروزرسانی: {time_str}")
+        print(f"🌐 منبع: {source}")
+        print(f"👤 توسعه‌دهنده: {creator}")
+
+    except requests.exceptions.Timeout:
+        print(" سرور پاسخ نداد (Timeout).")
+    except requests.exceptions.ConnectionError:
+        print(" اتصال اینترنت برقرار نیست.")
+    except Exception as e:
+        print(" خطا", e)
+
+if __name__ == "__main__":
+    fetch_dollar()
 ```
 
 ---
