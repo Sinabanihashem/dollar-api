@@ -167,6 +167,6 @@ Source: tgju.org
 
 ---
 
-👤 Developer: @Sinabanis          
+👤 Developer: mir sina banihashem         
 📍 Hosted on: Cloudflare Workers          
 🔗 Endpoint: https://dollar.api-sina-free.workers.dev/dollar          
