@@ -47,7 +47,7 @@ GET :
 
 ```{
   "creator": "@Sinabani_api",
-  "منبع": "tgju.org",
+  "source": "tgju.org",
   "price_rial": "1076400",
   "price_toman": 107640,
   "updated_at": "2025-11-01T10:29:37.201Z"
