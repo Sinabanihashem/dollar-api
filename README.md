@@ -45,7 +45,8 @@ GET :
 
 ## 🧾 نمونه خروجی
 
-```{
+```
+{
   "creator": "@Sinabani_api",
   "source": "tgju.org",
   "price_rial": "1076400",
