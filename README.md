@@ -159,10 +159,10 @@ bot.run()
 
 ## 📦 اطلاعات فنی
 
-Method: GET
-Response Type: JSON
-Host: Cloudflare Workers
-Source: tgju.org
+Method: GET          
+Response Type: JSON          
+Host: Cloudflare Workers          
+Source: tgju.org          
 
 ---
 
