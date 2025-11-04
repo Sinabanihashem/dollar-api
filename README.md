@@ -1,4 +1,4 @@
-# 💸 SinaDollar API – نسخه جدید
+# 💸 SinaDollar API version : 1.0.3
 
 وب‌سرویس SinaDollar یک سرویس سریع و دقیق برای دریافت قیمت لحظه‌ای دلار آزاد به ریال و تومان 🇮🇷💰 است.
 با یک درخواست ساده‌ی GET، آخرین قیمت از وب‌سایت رسمی tgju.org واکشی و به‌صورت JSON برگردانده می‌شود.
@@ -35,7 +35,7 @@ GET :
 ```string```
 قیمت دلار به ریال
 ```price_toman```
-```number	```
+```number```
 قیمت دلار به تومان
 ```updated_at```
 ```string```
@@ -166,6 +166,6 @@ Source: tgju.org
 
 ---
 
-👤 Developer: @Sinabanis
-📍 Hosted on: Cloudflare Workers
-🔗 Endpoint: https://dollar.api-sina-free.workers.dev/dollar
+👤 Developer: @Sinabanis          
+📍 Hosted on: Cloudflare Workers          
+🔗 Endpoint: https://dollar.api-sina-free.workers.dev/dollar          
