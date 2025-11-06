@@ -130,13 +130,15 @@ bot.run()
 
 ## ⚙️ اطلاعات فنی
 
-ویژگی	مقدار
-
-Method	GET          
-Response Type	JSON          
-Hosting	Cloudflare Workers          
-Data Source	tgju.org          
-
+| ویژگی | مقدار |
+|------|-------|
+| **Method** | `GET` |
+| **Response Type** | `JSON` |
+| **Content-Type** | `application/json; charset=utf-8` |
+| **Host** | Cloudflare Workers |
+| **Source Provider** | tgju.org |
+| **Rate Limit** | بدون محدودیت رسمی (light usage recommended) |
+| **Authentication** | نیاز ندارد (`No API Key`) |          
 
 
 ---
