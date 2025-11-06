@@ -132,10 +132,10 @@ bot.run()
 
 ویژگی	مقدار
 
-Method	GET
-Response Type	JSON
-Hosting	Cloudflare Workers
-Data Source	tgju.org
+Method	GET          
+Response Type	JSON          
+Hosting	Cloudflare Workers          
+Data Source	tgju.org          
 
 
 
@@ -143,6 +143,6 @@ Data Source	tgju.org
 
 ## 👤 Developer
 
-mir sina banihashem
-📍 Rubika: https://rubika.ir/Sinabani_api
-🔗 API Endpoint: https://dollar.api-sina-free.workers.dev/dollar
+mir sina banihashem          
+📍 Rubika: https://rubika.ir/Sinabani_api          
+🔗 API Endpoint: https://dollar.api-sina-free.workers.dev/dollar          
